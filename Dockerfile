@@ -1,3 +1,2 @@
-FROM python:3.6.5-stretch
-RUN python3.6 -m pip install aiohttp
+FROM golang:1.10.2-stretch
 WORKDIR /root/code
